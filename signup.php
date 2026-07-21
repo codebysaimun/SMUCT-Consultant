@@ -12,6 +12,47 @@
     
 </head>
 <body>
+<?php
+
+//learn from w3schools.com
+//Unset all the server side variables
+
+session_start();
+
+$_SESSION["user"]="";
+$_SESSION["usertype"]="";
+
+// Set the new timezone
+date_default_timezone_set('Asia/Dhaka');
+$date = date('Y-m-d');
+
+$_SESSION["date"]=$date;
+
+
+
+if($_POST){
+
+    
+
+    $_SESSION["personal"]=array(
+        'fname'=>$_POST['fname'],
+        'lname'=>$_POST['lname'],
+        'address'=>$_POST['address'],
+        'nic'=>$_POST['nic'],
+        'dob'=>$_POST['dob']
+    );
+
+
+    print_r($_SESSION["personal"]);
+    header("location: create-account.php");
+
+
+
+
+}
+
+?>
+
 
     <center>
     <div class="container">
@@ -84,7 +125,7 @@
                 <td colspan="2">
                     <br>
                     <label for="" class="sub-text" style="font-weight: 280;">Already have an account&#63; </label>
-                    <a href="login.html" class="hover-link1 non-style-link">Login</a>
+                    <a href="login.php" class="hover-link1 non-style-link">Login</a>
                     <br><br><br>
                 </td>
             </tr>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/animations.css">  
     <link rel="stylesheet" href="css/main.css">  
     <link rel="stylesheet" href="css/index.css">
-    <title>SMUCTConsultant</title>
+    <title>GreenConsultant</title>
     <style>
         table{
             animation: transitionIn-Y-bottom 0.5s;
@@ -22,13 +22,13 @@
         <table border="0">
             <tr>
                 <td width="80%">
-                    <font class="edoc-logo">SMUCTConsultant </font>
+                    <font class="edoc-logo">GreenConsultant </font>
                 </td>
                 <td width="10%">
-                   <a href="login.html"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
+                   <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
                 </td>
                 <td  width="10%">
-                    <a href="signup.html" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
+                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
                 </td>
             </tr>
             
@@ -48,7 +48,7 @@
                 
                 <td colspan="3">
                     <center>
-                    <a href="login.html" >
+                    <a href="login.php" >
                         <input type="button" value="Get Appointment" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
                     </a>
                 </center>
@@ -61,7 +61,7 @@
                 </td>
             </tr>
         </table>
-        <p class="sub-text2 footer-hashen">SMUCTConsultant Web Project By Saimun</p>
+        <p class="sub-text2 footer-hashen">GreenConsultant Web Project By Group 8</p>
     </center>
     
     </div>
