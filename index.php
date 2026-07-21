@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/animations.css">  
     <link rel="stylesheet" href="css/main.css">  
     <link rel="stylesheet" href="css/index.css">
-    <title>GreenConsultant</title>
+    <title>SMUCTConsultant</title>
     <style>
         table{
             animation: transitionIn-Y-bottom 0.5s;
@@ -22,7 +22,7 @@
         <table border="0">
             <tr>
                 <td width="80%">
-                    <font class="edoc-logo">GreenConsultant </font>
+                    <font class="edoc-logo">SMUCTConsultant </font>
                 </td>
                 <td width="10%">
                    <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
@@ -61,7 +61,7 @@
                 </td>
             </tr>
         </table>
-        <p class="sub-text2 footer-hashen">GreenConsultant Web Project By Group 8</p>
+        <p class="sub-text2 footer-hashen">SMUCTConsultant Web Project By Saimun</p>
     </center>
     
     </div>
